@@ -1,0 +1,101 @@
+2023-10-28 12:29:40,324 INFO m.ApplicationManager [ApplicationManager.java:30] created chrome browser
+2023-10-28 12:29:41,339 INFO m.ApplicationManager [ApplicationManager.java:36] open page: https://telranedu.web.app/home
+2023-10-28 12:29:41,475 INFO m.TestNGListener [TestNGListener.java:50] start test - onstart - : Gradle test
+2023-10-28 12:29:41,491 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //a[@href='/login']
+2023-10-28 12:29:41,491 INFO m.WDListener [WDListener.java:93] before find element: By.xpath: //a[@href='/login']
+2023-10-28 12:29:41,514 INFO m.WDListener [WDListener.java:99] element found success: By.xpath: //a[@href='/login']
+2023-10-28 12:29:41,519 INFO m.WDListener [WDListener.java:105] start method click
+2023-10-28 12:29:41,573 INFO m.WDListener [WDListener.java:111] done method click
+2023-10-28 12:29:41,573 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //input[@name='email']
+2023-10-28 12:29:41,573 INFO m.WDListener [WDListener.java:93] before find element: By.xpath: //input[@name='email']
+2023-10-28 12:29:41,589 INFO m.WDListener [WDListener.java:99] element found success: By.xpath: //input[@name='email']
+2023-10-28 12:29:41,589 INFO m.WDListener [WDListener.java:105] start method click
+2023-10-28 12:29:41,626 INFO m.WDListener [WDListener.java:111] done method click
+2023-10-28 12:29:41,687 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //input[@name='password']
+2023-10-28 12:29:41,688 INFO m.WDListener [WDListener.java:93] before find element: By.xpath: //input[@name='password']
+2023-10-28 12:29:41,711 INFO m.WDListener [WDListener.java:99] element found success: By.xpath: //input[@name='password']
+2023-10-28 12:29:41,711 INFO m.WDListener [WDListener.java:105] start method click
+2023-10-28 12:29:41,742 INFO m.WDListener [WDListener.java:111] done method click
+2023-10-28 12:29:44,795 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //button[@name='login']
+2023-10-28 12:29:44,795 INFO m.WDListener [WDListener.java:93] before find element: By.xpath: //button[@name='login']
+2023-10-28 12:29:44,817 INFO m.WDListener [WDListener.java:99] element found success: By.xpath: //button[@name='login']
+2023-10-28 12:29:44,818 INFO m.WDListener [WDListener.java:105] start method click
+2023-10-28 12:29:44,848 INFO m.WDListener [WDListener.java:111] done method click
+2023-10-28 12:29:44,855 INFO t.BaseTests [BaseTests.java:40] ----------------------------------------------------------------------------------
+2023-10-28 12:29:44,856 INFO t.BaseTests [BaseTests.java:41] started method: positiveCreatedContactDelete
+2023-10-28 12:29:44,856 INFO t.BaseTests [BaseTests.java:42] started method with params: []
+2023-10-28 12:29:44,856 INFO m.TestNGListener [TestNGListener.java:15] started test: positiveCreatedContactDelete
+2023-10-28 12:29:44,857 INFO t.BaseTests [DeleteContactTests.java:31] phone for the new contact - 1131435497
+2023-10-28 12:29:47,862 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //a[@href='/add']
+2023-10-28 12:29:47,862 INFO m.WDListener [WDListener.java:93] before find element: By.xpath: //a[@href='/add']
+2023-10-28 12:29:47,887 INFO m.WDListener [WDListener.java:99] element found success: By.xpath: //a[@href='/add']
+2023-10-28 12:29:47,887 INFO m.WDListener [WDListener.java:105] start method click
+2023-10-28 12:29:47,915 INFO m.WDListener [WDListener.java:111] done method click
+2023-10-28 12:29:47,916 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //input[@placeholder='Name']
+2023-10-28 12:29:47,916 INFO m.WDListener [WDListener.java:93] before find element: By.xpath: //input[@placeholder='Name']
+2023-10-28 12:29:47,934 INFO m.WDListener [WDListener.java:99] element found success: By.xpath: //input[@placeholder='Name']
+2023-10-28 12:29:47,934 INFO m.WDListener [WDListener.java:105] start method click
+2023-10-28 12:29:47,970 INFO m.WDListener [WDListener.java:111] done method click
+2023-10-28 12:29:48,037 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //input[@placeholder='Last Name']
+2023-10-28 12:29:48,037 INFO m.WDListener [WDListener.java:93] before find element: By.xpath: //input[@placeholder='Last Name']
+2023-10-28 12:29:48,055 INFO m.WDListener [WDListener.java:99] element found success: By.xpath: //input[@placeholder='Last Name']
+2023-10-28 12:29:48,055 INFO m.WDListener [WDListener.java:105] start method click
+2023-10-28 12:29:48,086 INFO m.WDListener [WDListener.java:111] done method click
+2023-10-28 12:29:48,134 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //input[@placeholder='Phone']
+2023-10-28 12:29:48,134 INFO m.WDListener [WDListener.java:93] before find element: By.xpath: //input[@placeholder='Phone']
+2023-10-28 12:29:48,150 INFO m.WDListener [WDListener.java:99] element found success: By.xpath: //input[@placeholder='Phone']
+2023-10-28 12:29:48,150 INFO m.WDListener [WDListener.java:105] start method click
+2023-10-28 12:29:48,181 INFO m.WDListener [WDListener.java:111] done method click
+2023-10-28 12:29:48,229 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //input[@placeholder='email']
+2023-10-28 12:29:48,229 INFO m.WDListener [WDListener.java:93] before find element: By.xpath: //input[@placeholder='email']
+2023-10-28 12:29:48,244 INFO m.WDListener [WDListener.java:99] element found success: By.xpath: //input[@placeholder='email']
+2023-10-28 12:29:48,244 INFO m.WDListener [WDListener.java:105] start method click
+2023-10-28 12:29:48,271 INFO m.WDListener [WDListener.java:111] done method click
+2023-10-28 12:29:48,340 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //input[@placeholder='Address']
+2023-10-28 12:29:48,340 INFO m.WDListener [WDListener.java:93] before find element: By.xpath: //input[@placeholder='Address']
+2023-10-28 12:29:48,350 INFO m.WDListener [WDListener.java:99] element found success: By.xpath: //input[@placeholder='Address']
+2023-10-28 12:29:48,351 INFO m.WDListener [WDListener.java:105] start method click
+2023-10-28 12:29:48,382 INFO m.WDListener [WDListener.java:111] done method click
+2023-10-28 12:29:48,426 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //input[@placeholder='description']
+2023-10-28 12:29:48,426 INFO m.WDListener [WDListener.java:93] before find element: By.xpath: //input[@placeholder='description']
+2023-10-28 12:29:48,444 INFO m.WDListener [WDListener.java:99] element found success: By.xpath: //input[@placeholder='description']
+2023-10-28 12:29:48,444 INFO m.WDListener [WDListener.java:105] start method click
+2023-10-28 12:29:48,486 INFO m.WDListener [WDListener.java:111] done method click
+2023-10-28 12:29:51,565 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //button/b
+2023-10-28 12:29:51,566 INFO m.WDListener [WDListener.java:93] before find element: By.xpath: //button/b
+2023-10-28 12:29:51,592 INFO m.WDListener [WDListener.java:99] element found success: By.xpath: //button/b
+2023-10-28 12:29:51,593 INFO m.WDListener [WDListener.java:105] start method click
+2023-10-28 12:29:51,615 INFO m.WDListener [WDListener.java:111] done method click
+2023-10-28 12:29:55,750 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //h3[text()= '']
+2023-10-28 12:29:55,750 INFO m.WDListener [WDListener.java:93] before find element: By.xpath: //h3[text()= '']
+2023-10-28 12:30:55,820 INFO m.WDListener [WDListener.java:149] start on exception in WDListener class
+2023-10-28 12:30:55,821 INFO m.WDListener [WDListener.java:151] created name for the screenshot: src/test/screenshots/screenshot-2023-10-28_12_30_55.png
+2023-10-28 12:30:55,821 ERROR m.WDListener [WDListener.java:152] no such element: Unable to locate element: {"method":"xpath","selector":"//h3[text()= '']"}
+  (Session info: chrome=118.0.5993.89)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'OKSANA', ip: '192.168.0.173', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.89, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\nosni\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51741}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6dad5c2e6d4a307fb126ef03c6aa06e2
+*** Element info: {Using=xpath, value=//h3[text()= '']}
+2023-10-28 12:30:55,821 ERROR m.WDListener [WDListener.java:153] [sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method), sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62), sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45), java.lang.reflect.Constructor.newInstance(Constructor.java:423), org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187), org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122), org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49), org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158), org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83), org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552), org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323), org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428), org.openqa.selenium.By$ByXPath.findElement(By.java:353), org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315), sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method), sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62), sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43), java.lang.reflect.Method.invoke(Method.java:498), org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105), com.sun.proxy.$Proxy16.findElement(Unknown Source), org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194), manager.BaseHelper.findElementBase(BaseHelper.java:24), manager.BaseHelper.clickBase(BaseHelper.java:33), manager.ContactHelper.openContactInfoByPhone(ContactHelper.java:46), tests.DeleteContactTests.positiveCreatedContactDelete(DeleteContactTests.java:43), sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method), sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62), sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43), java.lang.reflect.Method.invoke(Method.java:498), org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133), org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598), org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173), org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46), org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824), org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146), org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146), org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128), java.util.ArrayList.forEach(ArrayList.java:1259), org.testng.TestRunner.privateRun(TestRunner.java:794), org.testng.TestRunner.run(TestRunner.java:596), org.testng.SuiteRunner.runTest(SuiteRunner.java:377), org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371), org.testng.SuiteRunner.privateRun(SuiteRunner.java:332), org.testng.SuiteRunner.run(SuiteRunner.java:276), org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53), org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96), org.testng.TestNG.runSuitesSequentially(TestNG.java:1212), org.testng.TestNG.runSuitesLocally(TestNG.java:1134), org.testng.TestNG.runSuites(TestNG.java:1063), org.testng.TestNG.run(TestNG.java:1031), org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.runTests(TestNGTestClassProcessor.java:141), org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.stop(TestNGTestClassProcessor.java:90), org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61), sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method), sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62), sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43), java.lang.reflect.Method.invoke(Method.java:498), org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36), org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24), org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33), org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94), com.sun.proxy.$Proxy2.stop(Unknown Source), org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:193), org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129), org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100), org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60), org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56), org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:133), org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71), worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69), worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)]
+2023-10-28 12:30:55,822 ERROR m.WDListener [WDListener.java:154] org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//h3[text()= '']"}
+  (Session info: chrome=118.0.5993.89)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'OKSANA', ip: '192.168.0.173', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.89, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\nosni\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51741}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6dad5c2e6d4a307fb126ef03c6aa06e2
+*** Element info: {Using=xpath, value=//h3[text()= '']}
+2023-10-28 12:30:56,248 INFO m.TestNGListener [TestNGListener.java:27] test failure: positiveCreatedContactDelete
+2023-10-28 12:30:56,250 INFO t.BaseTests [BaseTests.java:47] stopped method: positiveCreatedContactDelete
+2023-10-28 12:30:56,250 INFO t.BaseTests [BaseTests.java:48] stopped method with params: []
+2023-10-28 12:30:56,251 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //button[text()='Sign Out']
+2023-10-28 12:30:56,251 INFO m.WDListener [WDListener.java:93] before find element: By.xpath: //button[text()='Sign Out']
+2023-10-28 12:30:56,267 INFO m.WDListener [WDListener.java:99] element found success: By.xpath: //button[text()='Sign Out']
+2023-10-28 12:30:56,268 INFO m.WDListener [WDListener.java:105] start method click
+2023-10-28 12:30:56,300 INFO m.WDListener [WDListener.java:111] done method click
+2023-10-28 12:30:56,302 INFO m.TestNGListener [TestNGListener.java:56] all code executed: passed tests: [ResultMap map=[]]
+2023-10-28 12:30:56,302 INFO m.TestNGListener [TestNGListener.java:57] all code executed: failed tests: [ResultMap map=[[TestResult name=positiveCreatedContactDelete status=FAILURE method=DeleteContactTests.positiveCreatedContactDelete()[pri:0, instance:tests.DeleteContactTests@5fbdfdcf] output={null}]]]
