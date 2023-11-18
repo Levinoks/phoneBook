@@ -1,4 +1,4 @@
-package dto;
+package datasetup;
 
 import lombok.Builder;
 import lombok.Getter;
@@ -10,7 +10,6 @@ import lombok.ToString;
 @ToString
 @Builder
 public class UserDtoLombok {
-    String username;
+    String email;
     String password;
 }
-

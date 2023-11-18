@@ -17,13 +17,13 @@ public class DataProviderLogin {
 
 
                 UserDtoLombok.builder()
-                        .email("qwer1@hh.e")
+                        .username("qwer1@hh.e")
                         .password("User#12345")
                         .build()
         });
         list.add(new Object[]{
                 UserDtoLombok.builder()
-                        .email("qwer1@hh.e")
+                        .username("qwer1@hh.e")
                         .password("User#12345")
                         .build()
         });
@@ -38,13 +38,13 @@ public class DataProviderLogin {
 
 
                 UserDtoLombok.builder()
-                        .email("qwer1@hh.e")
+                        .username("qwer1@hh.e")
                         .password("User012345")
                         .build()
         });
         list.add(new Object[]{
                 UserDtoLombok.builder()
-                        .email("qwer1@hh.e")
+                        .username("qwer1@hh.e")
                         .password("user#12345")
                         .build()
         });
@@ -62,7 +62,7 @@ public class DataProviderLogin {
                 String[] split=line.split(",");
                 list.add(new Object[]{
                         UserDtoLombok.builder()
-                                .email(split[0])
+                                .username(split[0])
                                 .password(split[1])
                                 .build()
                 });

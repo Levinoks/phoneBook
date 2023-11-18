@@ -1,4 +1,4 @@
-package dto;
+package datasetup;
 
 import lombok.Builder;
 import lombok.Getter;
@@ -22,4 +22,3 @@ String name;
 String phone;
 
 }
-

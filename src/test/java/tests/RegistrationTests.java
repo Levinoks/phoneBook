@@ -6,7 +6,6 @@ import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
-import utils.RandomUtils;
 
 public class RegistrationTests extends BaseTests {
 
@@ -26,7 +25,7 @@ public class RegistrationTests extends BaseTests {
     public void positiveRegistration() {
         String email = random.generateEmail(7);
         UserDtoLombok user = UserDtoLombok.builder()
-                .email(email)
+                .username(email)
                 .password("User#12345")
                 .build();
         app.getUserHelper().fillRegUserDtoLombok(user);
@@ -46,7 +45,7 @@ public class RegistrationTests extends BaseTests {
     public void negativeRegNoSymbol() {
         String email = random.generateEmail(7);
         UserDtoLombok user = UserDtoLombok.builder()
-                .email(email)
+                .username(email)
                 .password("123456Aa")
                 .build();
         app.getUserHelper().fillRegUserDtoLombok(user);
@@ -58,7 +57,7 @@ public class RegistrationTests extends BaseTests {
     public void negativeRegNoLetters() {
         String email = random.generateEmail(7);
         UserDtoLombok user = UserDtoLombok.builder()
-                .email(email)
+                .username(email)
                 .password("12345699#")
                 .build();
         app.getUserHelper().fillRegUserDtoLombok(user);
@@ -70,7 +69,7 @@ public class RegistrationTests extends BaseTests {
     public void negativeRegNoDigits() {
         String email = random.generateEmail(7);
         UserDtoLombok user = UserDtoLombok.builder()
-                .email(email)
+                .username(email)
                 .password("Agshsjsks#")
                 .build();
         app.getUserHelper().fillRegUserDtoLombok(user);

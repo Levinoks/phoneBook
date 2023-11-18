@@ -41,7 +41,7 @@ public class UserHelper extends BaseHelper{
     }
 
     public void fillLoginUserDtoLombok(UserDtoLombok user) {
-        typeTextBase(inputEmail, user.getEmail());
+        typeTextBase(inputEmail, user.getUsername());
         typeTextBase(inputPassword, user.getPassword());
         pause(3);
         clickBase(btnLogin);
@@ -49,7 +49,7 @@ public class UserHelper extends BaseHelper{
 
     public void fillRegUserDtoLombok(UserDtoLombok user) {
         clickBase(btnOpenLoginForm);
-        typeTextBase(inputEmail, user.getEmail());
+        typeTextBase(inputEmail, user.getUsername());
         typeTextBase(inputPassword, user.getPassword());
         jsClickBase(btnRegistration);
     }

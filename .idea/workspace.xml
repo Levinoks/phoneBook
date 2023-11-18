@@ -4,7 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15db8580-5b9c-41ad-be07-7df3da50e1ee" name="Changes" comment="L12" />
+    <list default="true" id="15db8580-5b9c-41ad-be07-7df3da50e1ee" name="Changes" comment="data provider new contact">
+      <change afterPath="$PROJECT_DIR$/src/test/java/datasetup/DataCommonDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/datasetup/FillData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/datasetup/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/datasetup/NewContactDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/datasetup/UserDtoLombok.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/dto/AllContactsDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/dto/AuthResponseDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/dto/ErrorDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/dto/MessageResponseDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/okhttp/LoginTestOkHTTP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/okhttp/RegistrationTestOkHTTP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/data/DataProviderLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/data/DataProviderLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/dto/NewContactDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dto/NewContactDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/dto/UserDtoLombok.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dto/UserDtoLombok.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/manager/ApplicationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/manager/ApplicationManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/manager/UserHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/manager/UserHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/BaseTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/BaseTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/LoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/LoginTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/RegistrationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/RegistrationTests.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,15 +74,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/nosni/Data/TelRan/Automation/IlCarroZip/iCarroQA20-main",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/nosni/Data/TelRan/Automation/IlCarroZip/iCarroQA20-main&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\nosni\Data\TelRan\Automation\phoneBook_fixed\phoneBookQA20-main\src\test\resources" />
@@ -69,11 +92,12 @@
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="datasetup" />
       <recent name="manager" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.DeleteContactTests.positiveCreatedContactDelete">
-    <configuration name="AddContactTests.positiveAddContact" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.RegistrationTestOkHTTP.regNegativeDuplicateUser">
+    <configuration name="LoginTestOkHTTP.loginNegative" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -86,7 +110,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;tests.AddContactTests.positiveAddContact&quot;" />
+            <option value="&quot;tests.okhttp.LoginTestOkHTTP.loginNegative&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -97,7 +121,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="DeleteContactTests.positiveCreatedContactDelete" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="LoginTestOkHTTP.loginPositive" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -110,7 +134,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;tests.DeleteContactTests.positiveCreatedContactDelete&quot;" />
+            <option value="&quot;tests.okhttp.LoginTestOkHTTP.loginPositive&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -121,7 +145,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="LoginTests.positiveLoginUserDtoLombok" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="RegistrationTestOkHTTP.regNegative" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -134,7 +158,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;tests.LoginTests.positiveLoginUserDtoLombok&quot;" />
+            <option value="&quot;tests.okhttp.RegistrationTestOkHTTP.regNegative&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -145,7 +169,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="RegistrationTests.positiveRegistration" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="RegistrationTestOkHTTP.regNegativeDuplicateUser" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -158,7 +182,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;tests.RegistrationTests.positiveRegistration&quot;" />
+            <option value="&quot;tests.okhttp.RegistrationTestOkHTTP.regNegativeDuplicateUser&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -169,7 +193,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="Tests in 'tests'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="RegistrationTestOkHTTP.regPositive" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -182,7 +206,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;tests.*&quot;" />
+            <option value="&quot;tests.okhttp.RegistrationTestOkHTTP.regPositive&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -195,11 +219,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.DeleteContactTests.positiveCreatedContactDelete" />
-        <item itemvalue="Gradle.AddContactTests.positiveAddContact" />
-        <item itemvalue="Gradle.Tests in 'tests'" />
-        <item itemvalue="Gradle.LoginTests.positiveLoginUserDtoLombok" />
-        <item itemvalue="Gradle.RegistrationTests.positiveRegistration" />
+        <item itemvalue="Gradle.RegistrationTestOkHTTP.regNegativeDuplicateUser" />
+        <item itemvalue="Gradle.RegistrationTestOkHTTP.regNegative" />
+        <item itemvalue="Gradle.LoginTestOkHTTP.loginNegative" />
+        <item itemvalue="Gradle.RegistrationTestOkHTTP.regPositive" />
+        <item itemvalue="Gradle.LoginTestOkHTTP.loginPositive" />
       </list>
     </recent_temporary>
   </component>
@@ -276,7 +300,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697794023467</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="data provider new contact">
+      <option name="closed" value="true" />
+      <created>1699687712646</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1699687712646</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -291,6 +323,7 @@
     <MESSAGE value="add testNG listener" />
     <MESSAGE value="add Listener from Selenium" />
     <MESSAGE value="L12" />
-    <option name="LAST_COMMIT_MESSAGE" value="L12" />
+    <MESSAGE value="data provider new contact" />
+    <option name="LAST_COMMIT_MESSAGE" value="data provider new contact" />
   </component>
 </project>

@@ -15,6 +15,7 @@ public class LoginTests extends BaseTests {
     public void preconditionsBeforeClass() {
         if(app.isPageUrlHome()) {
             app.getUserHelper().openLoginPage();
+
         }
     }
 
@@ -66,7 +67,7 @@ public class LoginTests extends BaseTests {
     @Test
     public void negativeWrongPasswordNoLetters() {
         UserDtoLombok user = UserDtoLombok.builder()
-                .email("qwer1@hh.e")
+                .username("qwer1@hh.e")
                 .password("@123123456")
                 .build();
         app.getUserHelper().fillLoginUserDtoLombok(user);
@@ -77,7 +78,7 @@ public class LoginTests extends BaseTests {
     @Test
     public void negativeWrongPasswordNoDigits() {
         UserDtoLombok user = UserDtoLombok.builder()
-                .email("qwer1@hh.e")
+                .username("qwer1@hh.e")
                 .password("User#User")
                 .build();
         app.getUserHelper().fillLoginUserDtoLombok(user);

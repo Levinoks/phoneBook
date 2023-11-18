@@ -16,18 +16,29 @@ public class BaseTests {
     boolean flagIsAlertPresent = false;
     boolean flagIsUserLogin = false;
     Logger logger = LoggerFactory.getLogger(BaseTests.class);
-    RandomUtils random=new RandomUtils();
+    RandomUtils random = new RandomUtils();
 
-    static ApplicationManager app = new ApplicationManager();
+
+
+    static ApplicationManager app=new ApplicationManager();
+
+
+
+
+
 
     UserDtoLombok user = UserDtoLombok.builder()
-            .email("qwer1@hh.e")
+            .username("qwer1@hh.e")
             .password("User#12345")
             .build();
 
+
     @BeforeSuite(alwaysRun = true)
     public void setup() {
+
+
         app.init();
+
     }
 
     @AfterSuite(alwaysRun = true)
@@ -49,7 +60,7 @@ public class BaseTests {
     }
 
     public void preconditionForLoginAndRegTests() {
-        if(flagIsAlertPresent) {
+        if (flagIsAlertPresent) {
             flagIsAlertPresent = false;
             app.getUserHelper().clickAcceptAlert();
         }
