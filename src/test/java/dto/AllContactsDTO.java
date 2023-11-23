@@ -1,15 +1,14 @@
 package dto;
 
-import datasetup.NewContactDto;
-import lombok.Builder;
-import lombok.Getter;
-import lombok.Setter;
-import lombok.ToString;
+import dto.NewContactDto;
+import lombok.*;
 
 @Builder
 @Getter
 @Setter
 @ToString
+@AllArgsConstructor
+@NoArgsConstructor
 public class AllContactsDTO {
     NewContactDto[] contacts;
 }

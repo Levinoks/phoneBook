@@ -1,6 +1,6 @@
 package manager;
 
-import datasetup.FillData;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -20,7 +20,7 @@ public class ApplicationManager {
     EventFiringWebDriver driver;
     UserHelper userHelper;
     ContactHelper contactHelper;
-    FillData data;
+
 
     public ApplicationManager() {
         browser = System.getProperty("browser", BrowserType.CHROME);
@@ -43,7 +43,7 @@ public class ApplicationManager {
         driver.register(new WDListener());
         userHelper = new UserHelper(driver);
         contactHelper = new ContactHelper(driver);
-        data = new FillData();
+
     }
 
     public UserHelper getUserHelper() {
@@ -54,9 +54,7 @@ public class ApplicationManager {
         return contactHelper;
     }
 
-    public FillData getData() {
-        return data;
-    }
+
 
     public void tearDown() {
         driver.quit();
