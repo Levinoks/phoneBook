@@ -1,12 +1,13 @@
 package tests;
 
 import dto.NewContactDto;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-public class DeleteOneContactTestWithAPI extends BaseTests{
+public class DeleteOneContactTestWithAPI extends BaseTests {
     @BeforeClass(alwaysRun = true)
     public void preconditionsBeforeClass() {
         if (app.isPageUrlHome()) {
@@ -39,11 +40,9 @@ public class DeleteOneContactTestWithAPI extends BaseTests{
                 .phone(phone)
                 .build();
 
-softAssert.assertEquals(contactsService.getStatusCodeResponseAddNewContact(contactDto,token),200);
-      //  app.getContactHelper().addNewContact(contactDto);
+        softAssert.assertEquals(contactsService.getStatusCodeResponseAddNewContact(contactDto, token), 200);
         app.getContactHelper().openContactInfoByPhone(phone);
         app.getContactHelper().removeActiveContact();
-        app.getUserHelper().pause(5);
         softAssert.assertFalse(app.getContactHelper().validateContactCreated(phone));
         softAssert.assertAll();
 

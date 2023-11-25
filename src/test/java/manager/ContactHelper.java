@@ -3,6 +3,10 @@ package manager;
 import dto.NewContactDto;
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.util.regex.Pattern;
 
 public class ContactHelper extends BaseHelper {
 
@@ -25,9 +29,10 @@ public class ContactHelper extends BaseHelper {
     By btnRemoveContact = By.xpath("//button[text()='Remove']");
 
 
-public By getPhoneNumberInContactsLocator(String phone){
-    return By.xpath(String.format("//h3[contains(text(), '%s')]",phone));
-}
+    public By getPhoneNumberInContactsLocator(String phone) {
+        return By.xpath(String.format("//h3[contains(text(), '%s')]", phone));
+    }
+
     public void addNewContact(NewContactDto contactDto) {
         clickBase(btnAddNewContact);
         typeTextBase(inputNameAddContact, contactDto.getName());
@@ -41,23 +46,24 @@ public By getPhoneNumberInContactsLocator(String phone){
     }
 
     public boolean validateContactCreated(String phone) {
-
         return isElementByTextExistInList(textH3ContactList, phone);
     }
 
     public void openContactInfoByPhone(String phone) {
-
         clickBase(getPhoneNumberInContactsLocator(phone));
     }
 
     public void removeActiveContact() {
         clickBase(btnRemoveContact);
+        WebElement button = driver.findElement(By.xpath("//button[text()='Remove']"));
+        WebDriverWait wait = new WebDriverWait(driver, 10);
+        wait.until(ExpectedConditions.invisibilityOf(button));
 
 
     }
 
-    public void navigateToContactPage(){
-    driver.navigate().to("https://telranedu.web.app/contacts");
+    public void navigateToContactPage() {
+        driver.navigate().to("https://telranedu.web.app/contacts");
     }
 
     public void scrollDown() {
