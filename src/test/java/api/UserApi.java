@@ -63,6 +63,7 @@ public class UserApi extends BaseApi{
             responseReg= registrationRequest(user);
         }
         return responseReg.getBody().as(AuthResponseDTO.class).getToken();
+       // return responseReg.then().extract().path("token");
     }
     public String getErrorMessageFromRegResponse(UserDtoLombok user){
         if (responseReg==null){

@@ -41,7 +41,8 @@ public class BaseRA {
                 .phone(phoneNumber)
                 .build();
         return contact1;
-    }public NewContactDto createNewContactForUpdate(String id){
+    }
+    public NewContactDto createNewContactForUpdate(String id){
         String phoneNumber = random.generateStringDigits(10);
         NewContactDto contact2= NewContactDto.builder()
                 .address("sdf")
